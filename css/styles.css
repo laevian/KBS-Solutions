@@ -91,6 +91,20 @@ header a:hover {
   box-sizing: border-box;
 }
 
+.services-hero {
+  width: 100vw;
+  height: 80vh;
+  background-image: url("../img/7.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  z-index: -1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 .overlay-small {
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
@@ -204,6 +218,21 @@ header a:hover {
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 40px;
+}
+
+.services-s1 {
+  background-color: #4473C5;
+  color:white;
+  font-size: 36px;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 20px 2vw;
+  height: 200px;
+
+}
+
+.services-s1>div {
+  align-items: center;
 }
 
 footer {
