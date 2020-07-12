@@ -57,11 +57,13 @@ header a:hover {
   text-decoration: none;
 }
 
+.main {
+  display: flex;
+  flex-direction:column;
+  width: 100vw;
+}
+
 .index-hero {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   width: 100vw;
   height: 70vh;
   background-image: url("../img/1.png");
@@ -76,10 +78,6 @@ header a:hover {
 }
 
 .about-hero {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   width: 100vw;
   height: 80vh;
   background-image: url("../img/5.png");
@@ -111,9 +109,13 @@ header a:hover {
   color: #0F2449;
   margin: 100px;
   padding: 1%;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
-  min-width: 240px;
+  min-width: 400px;
+  box-sizing:border-box;
+  width: 25vw;
+  position: absolute;
+  top: 0px;
 }
 
 .about-overlay ul {
@@ -128,34 +130,74 @@ header a:hover {
 .index-s1 {
   background-color: #4473C5;
   color: white;
-  margin-top: 70vh;
   box-sizing: border-box;
   padding: 3% 30%;
   font-size: 24px;
   font-weight: 300;
 }
 
-.about-s1 {
+.about-s1, .about-s3 {
   background-color: #4473C5;
   color: white;
-  margin-top: 70vh;
   box-sizing: border-box;
-  padding: 3% 30%;
+  padding: 3vw 20vw;
   font-size: 24px;
   font-weight: 300;
-  position: absolute;
 }
 
-.about-s2 {
+.about-s3 {
+  background-color: #D2DEF1;
+  color: #020F27;
+}
+
+.center-flex {
+  display: flex;
+  align-items: center;
+}
+
+.about-s1 img {
+  max-height: 300px;
+  margin-right: 30px;
+}
+
+.about-s1 span {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about-s2 span {
+  font-size: 40px;
+}
+
+.about-s2, .about-s4 {
   background-color: #A2B9E2;
   color: #020F27;
   box-sizing: border-box;
   padding: 3% 30%;
   font-size: 24px;
   font-weight: 300;
-  position: absolute;
 }
 
+.flex {
+  display: flex;
+}
+
+.about-s3 img {
+  margin-right: 20px;
+  max-height: 270px;
+  max-width: 259px;
+}
+
+.about-s3 h1, .about-s4 h1 {
+  font-weight: 100;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.about-s4 h5 {
+  font-size: 24px;
+  font-weight: 700;
+}
 
 .index-s1 h1 {
   margin-top: 0;
