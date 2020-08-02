@@ -417,7 +417,7 @@ header a:hover {
   font-size: 20px;
   font-weight: 300;
   box-sizing:border-box;
-  width: 500px;
+  width: 600px;
   position: absolute;
   right: 40px;
 }
@@ -529,7 +529,7 @@ header a:hover {
 .about-s3 img {
   margin-right: 20px;
   height: 270px;
-  width: 259px;
+  min-width: 259px;
 }
 
 .about-s3 h1, .about-s4 h1 {
