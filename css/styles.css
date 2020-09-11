@@ -494,6 +494,16 @@ header a:hover {
 
 .index-s1 p {
   text-align: justify;
+  margin-bottom: 15px;
+}
+
+.index-s1 li {
+  margin-bottom: 15px;
+}
+
+.index-s1 ul {
+  font-size: 20px;
+  margin: 20px 0 20px 17px;
 }
 
 .slideshow-container ul {

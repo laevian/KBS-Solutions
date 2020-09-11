@@ -25,10 +25,10 @@ if(IsInjected($visitor_email))
 
 $email_from = 'info@kbsdelivers.com';
 $email_subject = "New Form submission";
-$email_body = "You have received a new message from the user $name.\n".
-"Company:\n $visitor_company".
+$email_body = "You have received a new message from $name.\n".
+		"Company:\n $visitor_company".
 		"Phone Number:\n $visitor_phone".
-		"Here is the message:\n $message".
+		"Here is the message:\n $message"
 
 $to = "info@kbsdelivers.com";
 $headers = "From: $email_from \r\n";
